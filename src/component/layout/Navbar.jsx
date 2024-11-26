@@ -16,32 +16,29 @@ const messages = [
     id: 1,
     user: "@Budimulyono",
     avatar: "/src/assets/prsn06.jpg",
-    message:
-      "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 12 November",
+    message: "Ayo kerjakan kuis bersamaku",
     time: "2m ago",
   },
   {
     id: 2,
     user: "@Setiawan",
-    avatar: "/src/assets/prsn06.jpg",
+    avatar: "/src/assets/prsn04.jpg",
     message:
-      "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 11 November",
+      "Mari bersama mengerjakan kuis ini, aku sudah tidak sabar untuk mengerjakannya bersamamu",
     time: "5m ago",
   },
   {
     id: 3,
     user: "@Joniman",
-    avatar: "/src/assets/prsn06.jpg",
-    message:
-      "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 10 November",
+    avatar: "/src/assets/prsn03.jpg",
+    message: "Jangan lupa kerjakan ujiannya ya",
     time: "10m ago",
   },
   {
     id: 4,
     user: "@Yantopasarb",
-    avatar: "/src/assets/prsn06.jpg",
-    message:
-      "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 11 November",
+    avatar: "/src/assets/prsn07.jpg",
+    message: "Ujian sudah tiba, saatnya mengerjakan ya",
     time: "15m ago",
   },
 ];
@@ -49,20 +46,20 @@ const messages = [
 const notifications = [
   {
     id: 1,
-    title: "Permintaan Baru",
-    description: "Ada 3 permintaan penjemputan sampah baru",
+    title: "Pemberitahuan",
+    description: "Ada 3 kuis yang belum kamu kerjakan ayo kerjakan",
     time: "Baru saja",
   },
   {
     id: 2,
-    title: "Pembayaran Berhasil",
-    description: "Pembayaran untuk order #12345 telah berhasil",
+    title: "Peringatan",
+    description: "Segera kerjakan ujiannya",
     time: "5m yang lalu",
   },
   {
     id: 3,
     title: "Pengingat",
-    description: "Jadwal penjemputan sampah untuk hari ini",
+    description: "Saatnya gabung ke kelas online",
     time: "1h yang lalu",
   },
 ];
