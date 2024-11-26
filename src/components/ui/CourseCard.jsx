@@ -68,7 +68,7 @@ function CourseCard({
           {!isLarge && (
             <button
               className="mt-4 w-full rounded-lg bg-[#006D77] px-4 py-2 text-white"
-              onClick={() => navigate('DetailMateri')} 
+              onClick={() => navigate('/materi/DetailMateri')} 
             >
               Mulai
             </button>
