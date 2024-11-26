@@ -151,10 +151,7 @@ const Navbar = ({ pageTitle, onLogout }) => {
                         >
                           <Avatar className="h-10 w-10">
                             <AvatarImage
-                              src={
-                                notification.avatar ||
-                                "/placeholder.svg?height=40&width=40"
-                              }
+                              src="/src/assets/prsn05.jpg"
                             />
                             <AvatarFallback>
                               {notification.title[0]}

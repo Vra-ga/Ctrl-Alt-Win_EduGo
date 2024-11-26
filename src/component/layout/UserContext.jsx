@@ -7,7 +7,7 @@ export const UserProvider = ({ children }) => {
     firstName: "Ahmad",
     lastName: "Mulyono",
     role: "Admin",
-    profileImage: "/Avatar.svg?height=96&width=96",
+    profileImage: "/src/assets/prsn05.jpg",
   });
 
   const updateUserProfile = (newData) => {
