@@ -95,8 +95,8 @@ const DashboardLayout = ({ children }) => {
           <AlertDialogHeader>
             <AlertDialogTitle>Yakin ingin keluar?</AlertDialogTitle>
             <AlertDialogDescription>
-              Anda akan keluar dari akun admin PilahYuk. Pastikan semua tugas
-              telah tersimpan sebelum melanjutkan.
+              Anda akan keluar dari App EduGo. Pastikan semua tugas
+              telah tersimpan dan selesai sebelum melanjutkan .
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
