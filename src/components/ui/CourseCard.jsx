@@ -8,6 +8,8 @@ function CourseCard({
   points,
   progress,
   image,
+  teacher, 
+  teacherRole,
   isLarge = false,
 }) {
   const navigate = useNavigate();
@@ -58,14 +60,10 @@ function CourseCard({
               style={{ width: `${progress}%` }}
             />
           </div>
-          {!isLarge && (
-            <button
-              className="mt-4 w-full rounded-lg bg-[#006D77] px-4 py-2 text-white"
-              onClick={() => navigate('DetailMateri')} 
-            >
-              Mulai
-            </button>
-          )}
+          <div>
+            <p className="font-medium">{teacher}</p>
+            <p className="text-sm text-gray-600">{teacherRole}</p>
+          </div>
         </div>
       </div>
     </div>

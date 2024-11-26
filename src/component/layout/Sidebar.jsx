@@ -22,7 +22,7 @@ const Sidebar = ({ activeItem, setActiveItem, onLogout }) => {
 
   return (
     <div className="lg:sticky lg:top-0 lg:h-screen">
-      <aside className="fixed bottom-[24px] left-4 right-4 lg:static lg:h-full bg-customTeal lg:bg-white shadow-inner before:absolute before:inset-x-0 before:-top-6 before:h-6 before:from-gray-200 before:to-transparent before:lg:hidden before:rounded-t-3xl rounded-3xl lg:rounded-none lg:shadow-md transition-all duration-300 ease-in-out w-auto lg:w-64 z-50">
+      <aside className="fixed bottom-[24px] left-4 right-4 lg:static lg:h-full bg-[#0c766b] lg:bg-white shadow-inner before:absolute before:inset-x-0 before:-top-6 before:h-6 before:from-gray-200 before:to-transparent before:lg:hidden before:rounded-t-3xl rounded-3xl lg:rounded-none lg:shadow-md transition-all duration-300 ease-in-out w-auto lg:w-64 z-50">
         <nav className="flex flex-row lg:flex-col justify-between lg:justify-start px-2 py-4 lg:p-4 lg:space-y-4">
           <div className="hidden lg:flex items-center justify-center mb-6">
             <img src={Edugo} alt="Yuk Angkut Logo" className="w-28 h-28" />
@@ -36,7 +36,7 @@ const Sidebar = ({ activeItem, setActiveItem, onLogout }) => {
                 className={`flex items-center space-x-3 px-4 py-2 text-gray-600 hover:text-gray-900 rounded-lg
                   ${
                     activeItem === text
-                      ? "bg-white text-gray-700 lg:bg-customTeal lg:text-white"
+                      ? "bg-white text-gray-700 lg:bg-[#0c766b] lg:text-white"
                       : "text-white lg:text-gray-700 hover:bg-white/10 lg:hover:bg-gray-100"
                   }`}
               >

@@ -9,21 +9,18 @@ export default function Dashboard() {
   const courses = [
     {
       title: "Prinsip Dan Elemen Desain (Garis, Warna, Bentuk, Tekstur, Dll.)",
-      points: 100,
       teacher: "Rendi Satria",
       teacherRole: "Guru Desain Grafis",
       image: "/src/assets/bnr (2).png",
     },
     {
       title: "Pembelajaran Teknik Animasi Dua Dan Tiga Dimensi",
-      points: 100,
       teacher: "Fani Turaya",
       teacherRole: "Guru Animasi",
       image: "/src/assets/gm01.png",
     },
     {
       title: "Dasar Perhitungan Dan Pemecahan Masalah Matematis",
-      points: 100,
       teacher: "Muhammad Nurdin",
       teacherRole: "Guru Matematika",
       image: "/src/assets/gm05.png",
