@@ -288,14 +288,6 @@ const Settings = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Role
-                </label>
-                <Input 
-                  value={profileData.role} 
-                  className="w-full bg-gray-50" 
-                  disabled 
-                />
               </div>
               <div className="md:col-span-2">
                 <label className="block text-sm font-medium text-gray-700 mb-1">
