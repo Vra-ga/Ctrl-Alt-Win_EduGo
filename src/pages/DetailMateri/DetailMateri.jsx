@@ -35,11 +35,7 @@ export default function DetailMateri() {
                 <h1 className="text-6xl font-bold mb-4">LEARN</h1>
                 <h1 className="text-6xl font-bold">GRAPHIC</h1>
                 <h1 className="text-6xl font-bold">DESIGN</h1>
-                <img 
-                  src="/placeholder.svg" 
-                  alt="Phone mockup" 
-                  className="absolute bottom-0 w-1/2 max-w-md"
-                />
+                
               </div>
             </div>
 
