@@ -80,7 +80,7 @@ const Navbar = ({ pageTitle, onLogout }) => {
         {/* Desktop Header */}
         <div className="hidden lg:flex items-center justify-between">
           <div className="flex items-center ml-2">
-            <h1 className="text-xl font-semibold text-[#2CC297]">
+            <h1 className="text-xl font-semibold text-[#006D77]">
               {pageTitle}
             </h1>
           </div>
