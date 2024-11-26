@@ -1,8 +1,42 @@
-# React + Vite
+# EduGo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Ctrl+Alt+Win</h2>
 
-Currently, two official plugins are available:
+Kami dari team Ctrl+Alt+Win telah menyelesaikan aplikasi kami dengan nama EduGo dalam lomba Innoverse di Infinite Learning, Aplikasi ini bertemakan pendidikan. Berikut merupakan tampilan dari Web Kami:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h5>Tampilan Login</h5>
+
+<img src="/public/gmb01.png" />
+
+<h5>Tampilan Dashboard</h5>
+
+<img src="/public/gmb02.png" />
+
+<h5>Tampilan Page Materi</h5>
+
+<img src="/public/gmb03.png" />
+
+<h5>Tampilan Page Tugas</h5>
+
+<img src="/public/gmb04.png" />
+
+<h5>Tampilan Page Live Class</h5>
+
+<img src="/public/gmb05.png" />
+
+<h5>Tampilan Page Forum</h5>
+
+<img src="/public/gmb06.png" />
+
+<h5>Tampilan Page Seting</h5>
+
+<img src="/public/gmb07.png" />
+
+<h5>Tampilan Page Log Out</h5>
+
+<img src="/public/gmb08.png" />
+
+<h5>Tampilan Responsive</h5>
+
+<img src="/public/gmb09.png" />
+<img src="/public/gmb10.png" />
