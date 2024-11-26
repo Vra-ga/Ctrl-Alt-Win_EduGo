@@ -4,6 +4,23 @@
 
 Kami dari team Ctrl+Alt+Win telah menyelesaikan aplikasi kami dengan nama EduGo dalam lomba Innoverse di Infinite Learning, Aplikasi ini bertemakan pendidikan. Berikut merupakan tampilan dari Web Kami:
 
+di Web kami terdapat beberapa fitur seperti:
+
+<ul>
+<li>Login</li>
+<li>Dashboard</li>
+<li>Materi</li>
+<li>Detail Materi</li>
+<li>Quiz</li>
+<li>Tugas</li>
+<li>Live Class</li>
+<li>Forum</li>
+<li>Setting</li>
+<li>Log Out</li>
+<li>Notifikasi & pesan</li>
+<li>Dll</li>
+</ul>
+
 <h3>Tampilan Login</h3>
 
 <img src="/public/gmb01.png" />
