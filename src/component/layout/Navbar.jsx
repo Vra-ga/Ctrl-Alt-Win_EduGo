@@ -15,7 +15,7 @@ const messages = [
   {
     id: 1,
     user: "@Budimulyono",
-    avatar: "/placeholder.svg?height=32&width=32",
+    avatar: "/src/assets/prsn06.jpg",
     message:
       "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 12 November",
     time: "2m ago",
@@ -23,7 +23,7 @@ const messages = [
   {
     id: 2,
     user: "@Setiawan",
-    avatar: "/placeholder.svg?height=32&width=32",
+    avatar: "/src/assets/prsn06.jpg",
     message:
       "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 11 November",
     time: "5m ago",
@@ -31,7 +31,7 @@ const messages = [
   {
     id: 3,
     user: "@Joniman",
-    avatar: "/placeholder.svg?height=32&width=32",
+    avatar: "/src/assets/prsn06.jpg",
     message:
       "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 10 November",
     time: "10m ago",
@@ -39,7 +39,7 @@ const messages = [
   {
     id: 4,
     user: "@Yantopasarb",
-    avatar: "/placeholder.svg?height=32&width=32",
+    avatar: "/src/assets/prsn06.jpg",
     message:
       "Permintaan baru! Pengguna budi telah meminta penjemputan sampah pada 11 November",
     time: "15m ago",
@@ -89,19 +89,6 @@ const Navbar = ({ pageTitle, onLogout }) => {
           </div>
 
           <div className="flex items-center gap-4">
-            {/* Search Icon */}
-            {/* <div className="relative w-64">
-                            <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-                            <input
-                                className="pl-10 w-full px-3 py-2 border rounded"
-                                placeholder="Search..."
-                                type="search"
-                                value={searchQuery}
-                                onChange={handleSearchChange}
-                                aria-label="Search"
-                            />
-                        </div> */}
-
             {/* Messages Popover */}
             <Popover>
               <PopoverTrigger asChild>
@@ -143,7 +130,6 @@ const Navbar = ({ pageTitle, onLogout }) => {
                 </Card>
               </PopoverContent>
             </Popover>
-
             {/* Notifications Popover */}
             <Popover>
               <PopoverTrigger asChild>
@@ -192,7 +178,6 @@ const Navbar = ({ pageTitle, onLogout }) => {
                 </Card>
               </PopoverContent>
             </Popover>
-
             <div className="flex items-center gap-3">
               <div className="text-right">
                 <div className="text-sm font-medium">{fullName}</div>
