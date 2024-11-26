@@ -176,10 +176,6 @@ const Navbar = ({ pageTitle, onLogout }) => {
               </PopoverContent>
             </Popover>
             <div className="flex items-center gap-3">
-              <div className="text-right">
-                <div className="text-sm font-medium">{fullName}</div>
-                <div className="text-xs text-gray-500">{userProfile.role}</div>
-              </div>
               <img
                 src={userProfile.profileImage}
                 alt="Profile"
@@ -200,7 +196,6 @@ const Navbar = ({ pageTitle, onLogout }) => {
               />
               <div className="text-left hidden sm:block">
                 <div className="text-sm font-medium">{fullName}</div>
-                <div className="text-xs text-gray-500">{userProfile.role}</div>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -315,19 +310,6 @@ const Navbar = ({ pageTitle, onLogout }) => {
               </Button>
             </div>
           </div>
-
-          {/* Search Icon for Mobile */}
-          {/* <div className="relative w-full">
-                        <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-                        <input
-                            className="pl-10 w-full px-3 py-2 border rounded"
-                            placeholder="Search..."
-                            type="search"
-                            value={searchQuery}
-                            onChange={handleSearchChange}
-                            aria-label="Search"
-                        />
-                    </div> */}
         </div>
       </div>
     </header>
