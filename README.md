@@ -32,9 +32,17 @@ Kami dari team Ctrl+Alt+Win telah menyelesaikan aplikasi kami dengan nama EduGo 
 
 <img src="/public/gmb07.png" />
 
-<h3>Tampilan Page Log Out</h3>
+<h3>Tampilan Page Detail</h3>
 
 <img src="/public/gmb08.png" />
+
+<h3>Tampilan Page Quis</h3>
+
+<img src="/public/gmb11.png" />
+
+<h3>Tampilan Page Detail Materi</h3>
+
+<img src="/public/gmb12.png" />
 
 <h3>Tampilan Responsive</h3>
 
