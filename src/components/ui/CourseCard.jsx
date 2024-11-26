@@ -64,6 +64,16 @@ function CourseCard({
             <p className="font-medium">{teacher}</p>
             <p className="text-sm text-gray-600">{teacherRole}</p>
           </div>
+          <div>
+          {!isLarge && (
+            <button
+              className="mt-4 w-full rounded-lg bg-[#006D77] px-4 py-2 text-white"
+              onClick={() => navigate('DetailMateri')} 
+            >
+              Mulai
+            </button>
+          )}
+          </div>
         </div>
       </div>
     </div>
