@@ -1,6 +1,7 @@
 import { Clock, User, Video, Share2 } from "lucide-react";
 
 export default function Kelas() {
+  var content = `<a href="https://zoom.us/join" className="ml-2">Join Now</a>`;
   return (
     <>
       <div className="flex min-h-screen bg-white">
@@ -94,7 +95,15 @@ export default function Kelas() {
                   <div className="flex mt-2 mb-3">
                     <button className="flex mr-3 px-5 py-2 rounded-lg bg-[#0c766b] text-white hover:bg-[#0a5d55]">
                       <Video />
-                      <p className="ml-2">Join Now</p>
+                      <div
+                        className="ml-2"
+                        dangerouslySetInnerHTML={{
+                          __html: content.replace(
+                            /href/g,
+                            "target='_blank' href"
+                          ),
+                        }}
+                      ></div>
                     </button>
                     <button className="flex mr-3 px-4 py-2 rounded-lg bg-[#E4E4E4] text-[#0c766b] hover:bg-[#0c766b] hover:text-white">
                       <Share2 />
