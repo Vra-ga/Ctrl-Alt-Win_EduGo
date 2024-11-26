@@ -25,11 +25,11 @@ const DashboardLayout = ({ children }) => {
       case "/dashboard":
         return "Dashboard";
       case "/materi":
-        return "materi";
+        return "Materi";
       case "/tugas":
         return "Tugas";
-      case "/kuy-point":
-        return "Kuy Point";
+      case "/kelas":
+        return "Live Class";
       case "/forum":
         return "Forum";
       case "/settings":
@@ -45,7 +45,7 @@ const DashboardLayout = ({ children }) => {
       Dashboard: "/dashboard",
       Materi: "/materi",
       Tugas: "/tugas",
-      "Kuy Point": "/kuy-point",
+      Kelas: "/kelas",
       Forum: "/forum",
       Settings: "/settings",
     };

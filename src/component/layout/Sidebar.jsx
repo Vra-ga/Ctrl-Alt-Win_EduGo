@@ -15,7 +15,7 @@ const Sidebar = ({ activeItem, setActiveItem, onLogout }) => {
     { icon: LayoutDashboard, text: "Dashboard" },
     { icon: GraduationCap, text: "Materi" },
     { icon: ClipboardList, text: "Tugas" },
-    { icon: Video, text: "Live class" },
+    { icon: Video, text: "Kelas" },
     { icon: MessageSquareText, text: "Forum" },
     { icon: Settings, text: "Settings" },
   ];
