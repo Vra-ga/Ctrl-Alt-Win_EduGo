@@ -34,7 +34,7 @@ export default function Dashboard() {
     <div className="grid gap-4 lg:grid-cols-4 lg:gap-8">
       <div className="lg:col-span-3">
         {/* Hero Banner */}
-        <img src="/src/assets/banner01.png" alt="" className="mb-4" />
+        <img src="/src/assets/banner01.png" alt="" className="mb-4 h-1000px w-full " />
 
         {/* Stats */}
         <div className="mb-4 grid gap-4 sm:grid-cols-3 lg:mb-8">
