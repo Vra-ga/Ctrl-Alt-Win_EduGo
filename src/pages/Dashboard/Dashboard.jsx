@@ -14,7 +14,7 @@ export default function Dashboard() {
       image: "/src/assets/DB1 (5).svg",
     },
     {
-      title: "Pembelajaran Teknik Animasi Dua Dan Tiga Dimensi",
+      title: "Pembelajaran Dasar-Dasar Dalam Animasi Dua Dimensi Dan Tiga Dimensi",
       teacher: "Fani Turaya",
       teacherRole: "Guru Animasi",
       image: "/src/assets/DB1 (6).svg",
