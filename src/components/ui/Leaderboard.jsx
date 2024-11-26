@@ -1,12 +1,32 @@
-import { Star } from 'lucide-react'
+import { Star } from "lucide-react";
 
 export default function Leaderboard() {
   const leaders = [
-    { name: 'Ahmad Suharjo', class: 'Kelas XII DKV A', points: 5000 },
-    { name: 'Riski Saputra', class: 'Kelas XII DKV A', points: 4300 },
-    { name: 'Kelvin Andreas', class: 'Kelas XII DKV B', points: 3200 },
-    { name: 'Leni Sumarni', class: 'Kelas XII DKV A', points: 2000 },
-  ]
+    {
+      name: "Ahmad Suharjo",
+      class: "Kelas XII DKV A",
+      points: 5000,
+      image: "/src/assets/prsn01.jpeg ",
+    },
+    {
+      name: "Riski Saputra",
+      class: "Kelas XII DKV A",
+      points: 4300,
+      image: "/src/assets/prsn03.jpg ",
+    },
+    {
+      name: "Kelvin Andreas",
+      class: "Kelas XII DKV B",
+      points: 3200,
+      image: "/src/assets/prsn05.jpg ",
+    },
+    {
+      name: "Leni Sumarni",
+      class: "Kelas XII DKV A",
+      points: 2000,
+      image: "/src/assets/prsn06.jpg ",
+    },
+  ];
 
   return (
     <div className="rounded-lg border bg-white p-4">
@@ -15,7 +35,7 @@ export default function Leaderboard() {
         {leaders.map((leader, i) => (
           <div key={i} className="flex items-center gap-3">
             <img
-              src="/placeholder.svg?height=40&width=40"
+              src={leader.image}
               alt={leader.name}
               className="h-10 w-10 rounded-full"
             />
@@ -34,6 +54,5 @@ export default function Leaderboard() {
         See All
       </button>
     </div>
-  )
+  );
 }
-
