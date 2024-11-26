@@ -65,7 +65,7 @@ export default function Tugas() {
               type: "Quiz",
               description:
                 "menguji pemahaman tentang teori dan praktik desain grafis",
-              image: "/src/assets/bnr (2).png",
+              image: "/src/assets/tgs (1).svg",
               quiz: sampleQuiz,
               icn: "/src/assets/icn01.png",
             },
@@ -74,14 +74,14 @@ export default function Tugas() {
               type: "Latihan",
               description:
                 "Latihan praktis untuk menerapkan teknik animasi dua dan tiga dimensi",
-              image: "/src/assets/gm01.png",
+              image: "/src/assets/tgs (4).svg",
               icn: "/src/assets/icn01.png",
             },
             {
               title: "Fotografi",
               type: "Ujian",
               description: "Evaluasi penguasaan teknik dan konsep dalam fotografi",
-              image: "/src/assets/gm02.png",
+              image: "/src/assets/tgs (7).svg",
               icn: "/src/assets/icn01.png",
             },
             {
@@ -89,14 +89,14 @@ export default function Tugas() {
               type: "Quiz",
               description:
                 "Menguji pemahaman tentang konsep dan teknik pengembangan game",
-              image: "/src/assets/gm03.png",
+              image: "/src/assets/tgs (2).svg",
               icn: "/src/assets/icn01.png",
             },
             {
               title: "Audio Video",
               type: "Latihan",
               description: "Latihan praktis untuk melatih teknik pengolahan audio dan video",
-              image: "/src/assets/gm04.png",
+              image: "/src/assets/tgs (5).svg",
               icn: "/src/assets/icn01.png",
             },
             {
@@ -104,21 +104,21 @@ export default function Tugas() {
               type: "Ujian",
               description:
                 "Evaluasi pemahaman konsep dan kemampuan perhitungan matematis",
-              image: "/src/assets/gm05.png",
+              image: "/src/assets/tgs (8).svg",
               icn: "/src/assets/icn01.png",
             },
             {
               title: "B.Indonesia",
               type: "Quiz",
               description: "Menguji kemampuan berbahasa Indonesia yang benar",
-              image: "/src/assets/gm06.png",
+              image: "/src/assets/tgs (3).svg",
               icn: "/src/assets/icn01.png",
             },
             {
               title: "B.Inggris",
               type: "Latihan",
               description: "Evaluasi kemampuan public speaking berbahasa Inggris",
-              image: "/src/assets/gm07.png",
+              image: "/src/assets/tgs (6).svg",
               icn: "/src/assets/icn01.png",
             },
             {
@@ -126,7 +126,7 @@ export default function Tugas() {
               type: "Ujian",
               description:
                 "Menguji pemahaman teori dan praktik pendidikan jasmani",
-              image: "/src/assets/gm08.png",
+              image: "/src/assets/tgs (9).svg",
               icn: "/src/assets/icn01.png",
             },
           ].map((item, index) => (
